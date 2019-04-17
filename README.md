@@ -2,6 +2,8 @@
 
 ## 一. 实验内容
 
+使用PrefereceFragment实现设置页面
+
 1.基本要求：实现如下两个图拼接而成的设置界面
 
 ![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/1y.png)
@@ -47,25 +49,4 @@ CheckBox: 子选项，当父选项勾选时呈现
 
 ## 二. 关键代码
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto"
-      xmlns:tools="http://schemas.android.com/tools"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      tools:context=".MainActivity">
-
-      <TextView
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="@string/app_name"
-          app:layout_constraintBottom_toBottomOf="parent"
-          app:layout_constraintLeft_toLeftOf="parent"
-          app:layout_constraintRight_toRightOf="parent"
-          app:layout_constraintTop_toTopOf="parent" />
-
-    </android.support.constraint.ConstraintLayout>
-
 ## 三. 实验结果及截图
-  
-  ![Image text](https://raw.githubusercontent.com/1045896802/HelloWorld/master/img/HelloWorld.png)
