@@ -47,6 +47,10 @@ CheckBox: 子选项，当父选项勾选时呈现
 
 ![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/6y.png)
 
+4.参考文献
+
+https://developer.android.google.cn/guide/topics/ui/settings.html
+
 ## 二. 关键代码
 
 ## 三. 实验结果及截图
