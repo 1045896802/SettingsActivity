@@ -4,6 +4,9 @@
 
 1.基本要求：实现如下两个图拼接而成的设置界面
 
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/1y.png)
+
+
 2.设置项说明
 
 总共四组设置项
@@ -32,8 +35,15 @@ CheckBox: 子选项，当父选项勾选时呈现
 
 3.界面截图
 
-![Image text](https://raw.githubusercontent.com/1045896802/HelloWorld/master/img/HelloWorld.png)
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/2y.png)
 
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/3y.png)
+
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/4y.png)
+
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/5y.png)
+
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/6y.png)
 
 ## 二. 关键代码
 
