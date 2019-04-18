@@ -28,7 +28,7 @@
     <string name="title_perference_attributes">Perferences Attributes</string>
     <string name="title_parent_checkBox">Parent checkbox perference</string>
     <string name="summary_parent_checkBox">This is visually a parent</string>
-    <string name="title_child_checkBox">Carent checkbox perference</string>
+    <string name="title_child_checkBox">Child checkbox perference</string>
     <string name="summary_child_checkBox">This is visually a child</string>
 
 
