@@ -56,6 +56,7 @@ https://developer.android.google.cn/guide/topics/ui/settings.html
 自定义PreferenceCategory
 
 MyPreferenceCategory.java
+
     package com.example.settingsactivity;
 
     import android.content.Context;
