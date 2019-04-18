@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.settingsactivity.MyPreferenceCategory android:title="@string/title_in_line_perferences">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkBox"
+            android:summary="@string/summary_checkBox"
+            android:title="@string/title_checkBox" />
+
+    </com.example.settingsactivity.MyPreferenceCategory>
+
+    <com.example.settingsactivity.MyPreferenceCategory android:title="@string/title_dialog_based_perferences">
+        <EditTextPreference
+            android:dialogTitle="@string/dialogTitle_EditTextPreference"
+            android:key="animal_edit"
+            android:summary="@string/summary_editTextPreference"
+            android:title="@string/title_editTextPreference" />
+
+        <!--单选-->
+        <ListPreference
+            android:dialogTitle="@string/dialogTitle_ListPreference"
+            android:entries="@array/options_ListPreference"
+            android:entryValues="@array/options_value_ListPreference"
+            android:key="listPreference"
+            android:summary="@string/summary_ListPreference"
+            android:title="@string/title_ListPreference"></ListPreference>
+    </com.example.settingsactivity.MyPreferenceCategory>
+
+    <com.example.settingsactivity.MyPreferenceCategory android:title="@string/title_launch_perferences">
+        <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+            android:key="embed_preference_screen"
+            android:summary="@string/summary_embed_preference_screen"
+            android:title="@string/title_embed_preference_screen">
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="embed_checkBox"
+                android:summary="@string/summary_embed_checkBox"
+                android:title="@string/title_embed_checkBox" />
+        </PreferenceScreen>
+        <Preference android:title="@string/title_intent_Preference"
+            android:summary="@string/summary_intent_Preference">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.baidu.com" />
+        </Preference>
+    </com.example.settingsactivity.MyPreferenceCategory>
+
+    <com.example.settingsactivity.MyPreferenceCategory android:title="@string/title_perference_attributes">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="parent_checkBox"
+            android:summary="@string/summary_parent_checkBox"
+            android:title="@string/title_parent_checkBox" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="parent_checkBox"
+            android:key="child_checkBox"
+            android:summary="@string/summary_child_checkBox"
+            android:title="@string/title_child_checkBox" />
+    </com.example.settingsactivity.MyPreferenceCategory>
+
+</PreferenceScreen>
+

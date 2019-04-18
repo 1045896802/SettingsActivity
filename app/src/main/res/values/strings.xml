@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">SettingsActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="title_in_line_perferences">In-line perferences</string>
+    <string name="title_checkBox">Checkbox perference</string>
+    <string name="summary_checkBox">This is a checkbox</string>
+
+    <string name="title_dialog_based_perferences">Dialog-based perferences</string>
+    <string name="title_editTextPreference">Edit text perferences</string>
+    <string name="summary_editTextPreference">An example that uses an edit text dialog</string>
+    <string name="dialogTitle_EditTextPreference">Enter your favorite animal</string>
+
+    <string name="title_ListPreference">List perferences</string>
+    <string name="summary_ListPreference">An example that uses a list dialog</string>
+    <string name="dialogTitle_ListPreference">choose one</string>
+
+
+    <string name="title_launch_perferences">launch perferences</string>
+    <string name="title_embed_preference_screen">Screen perferences</string>
+    <string name="summary_embed_preference_screen">Show another screen of perferences</string>
+    <string name="title_embed_checkBox">Toggle perferences</string>
+    <string name="summary_embed_checkBox">Perference that is on the next screen but same hierarchy</string>
+    <string name="title_intent_Preference">Intent perference</string>
+    <string name="summary_intent_Preference">Launch an activity from an Intent</string>
+
+
+    <string name="title_perference_attributes">Perferences Attributes</string>
+    <string name="title_parent_checkBox">Parent checkbox perference</string>
+    <string name="summary_parent_checkBox">This is visually a parent</string>
+    <string name="title_child_checkBox">Carent checkbox perference</string>
+    <string name="summary_child_checkBox">This is visually a child</string>
+
+
 </resources>
