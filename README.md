@@ -182,3 +182,15 @@ preferences.xml
     </PreferenceScreen>
 
 ## 三. 实验结果及截图
+
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/1r.png)
+
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/2r.png)
+
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/3r.png)
+
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/4r.png)
+
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/5r.png)
+
+![Image text](https://github.com/1045896802/SettingsActivity/blob/master/img/6r.png)
